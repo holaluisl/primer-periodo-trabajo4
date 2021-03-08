@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script >
+		c=11;
+	</script>
+	<title>punto 1</title>
+	<link rel="stylesheet" type="text/css" href="tareapunto1.css">
+</head>
+<body onload="f1()" style="background-color: #5BEFAE; font-family:Algerian, sans-serif;
+	">
+	<center><h1>punto 1</h1>
+	<div class="cuadro"></div>
+		<input type="text" name="mos" id="mos" class="mos"></center>
+<script >
+function f1(){
+		document.getElementById("mos").value="holi";
+			setTimeout(f2,900);
+}
+function f2(){
+				c=c-1;
+if(c>=0){
+console.log(c)
+	document.getElementById("mos").value=c;
+	    con2=setInterval(f3,900);
+	}
+	else
+	{
+		
+
+ con4=setInterval(f4,0);
+	}
+}
+function f3(){
+			clearInterval(con2);
+ 	       setTimeout(f2,900);
+             }
+function f4(){
+			document.getElementById("mos").value="termine";
+	}
+</script>
+</body>
+</html>  

@@ -1,0 +1,30 @@
+.cuadro1{
+		
+	position: absolute;
+    background-color: #FF890C;
+	width: 100%;
+	height: 100%;
+  border: black 5px solid;
+}
+.cuadro2{
+		
+	position: absolute;
+	background-color: #FBBA00;
+	width: 800px;
+	height: 380px;
+	top:  100px;
+	left: 270px;
+	 border: black 5px solid;
+}
+.mostrar{
+	position: absolute;
+	background-color: #FBBA00; 
+	left: 20%;
+	top: 40%;
+	width: 29%;
+	  border: white 5px none;
+	  text-align:center;
+	font-size: xx-large;
+	font-family:Algerian, sans-serif;
+	
+}

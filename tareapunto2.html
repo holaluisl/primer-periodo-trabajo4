@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<center><h1 class="titulo">punto 2</h1></center>
+	<link rel="stylesheet" type="text/css" href="tareapunto2.css">
+</head>
+<body  style="background-color: #5BB0EF;">
+	<div class="cuadro"></div>
+	<input type="text" name="a1" id="a1" class="a1">
+		<input type="button" name="b1" value="ingresar" class="b1" onclick="ingre();">
+	<input type="text" name="a2" id="a2" class="a2">
+		<input type="button" name="b2" value="maximo" class="b2" onclick="maximo();">
+<script >
+	var vec=[];
+function ingre(){
+
+		var tamaño=vec.length; 
+	if(tamaño<5){
+
+
+	var espacio1=document.getElementById("a1").value;
+		vec.push(a1);
+		console.log(vec);
+		console.log(tamaño);
+		}
+		else
+		{
+			alert("NO SE PUEDEN INGRESAR MAS DE 5 NUMEROS");
+		}
+
+}
+function maximo(){
+	i=0;
+	while(i<5){ 
+i=i+1;
+if (vec[i]>=vec[0] && vec[i]>=vec[1]&&vec[i]>=vec[2]&&vec[i]>=vec[3]&&vec[i]>=vec[4]) {   
+
+			document.getElementById("a2").value=vec[i];
+
+i=i+5;
+}	
+else
+{
+
+}
+}
+}
+</script>
+
+</html>  

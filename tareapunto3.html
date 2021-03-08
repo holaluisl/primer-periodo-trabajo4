@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="tareapunto3.css">
+</head>
+<body onmousemove="position(event)" >
+<div class="cuadro1" id="cuadro1"></div>
+<div class="cuadro2" id="cuadro2"></div>
+		<input type="text" name="mostrar" id="mostrar" class="mostrar">
+
+<script >
+function position(event){
+	var x = event.clientX;
+
+	var y = event.clientY;
+
+
+	console.log(x);
+
+	console.log(y);
+	if (x>=270&&y>=100&&x<=1070&&y<=480) {
+					document.getElementById("mostrar").value="Estas dentro del cuadro";
+	}
+	else
+	{
+		document.getElementById("mostrar").value="Estas fuera";
+	}
+ }
+</script>
+
+</html>  

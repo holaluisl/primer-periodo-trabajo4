@@ -1,0 +1,26 @@
+
+.cuadro{
+		
+	position: absolute;
+	background-color: #00FE74;
+	width: 40%;
+	height: 40%;
+	top: 18%;
+	left: 30%;
+  border: black 5px solid;
+  font-family:Algerian, sans-serif;
+	
+}
+.mos{
+	position: absolute;
+	background-color: #00FE74;
+	left: 35%;
+	top: 30%;
+	width: 29%;
+	  border: none;
+	  text-align:center;
+	font-size: xx-large;
+	font-family:Algerian, sans-serif;
+	
+	
+}
